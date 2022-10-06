@@ -131,6 +131,7 @@ ul {
     background-color:var(--accent-color);
     font-family: 'Roboto';
     font-style: normal;
+    border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -138,6 +139,10 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 216;
+    border: 1px solid transparent;
 }
 
 
