@@ -124,7 +124,8 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-bottom: 30px;
+    padding-bottom: 280px;
+    padding-top: 200px;
 }
 .button{
     color: var(--main-white);
@@ -170,7 +171,8 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .about-description{
@@ -189,6 +191,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     padding-bottom: 50px;
+    padding-top: 94px;
 }
 
 .team{
@@ -197,6 +200,7 @@ ul {
 }
 
 .subtitle{
+    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -250,7 +254,13 @@ ul {
 
 .logo-footer {
     text-decoration: none;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 161x;
+}
+
+.adress{
+    padding-top:111px ;
+    padding-bottom:60px ;
 }
 
 .link-footer{
@@ -321,11 +331,31 @@ ul {
     color: var(--main-white);
  }
 
+ .projects{
+    padding-top:174px ;
+    padding-bottom: 94px;
+ }
+
+ .list{
+    padding-top:94px ;
+    padding-bottom: 34px;
+ }
+
+ .list-pictures{
+    padding-top: 88px;
+    padding-bottom: 94px;
+ }
+
+ .imegin{
+    padding-bottom: 20px;
+ }
+
  .project-name{
     color: var(--secondary-text);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding-bottom: 4px;
  }
 
  .project-text{
