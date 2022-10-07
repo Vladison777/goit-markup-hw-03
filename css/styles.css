@@ -60,10 +60,49 @@ ul {
     padding-left: 0;
 }
 
+button{
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /*-------------- Header --------------*/
 
+.page-header .container{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav{
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    gap: 50px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 50px;
+}
+
 .page-header{
-    padding-bottom: 25px;
+    padding: 25px 0px;
 }
 
 .logo{
@@ -74,6 +113,7 @@ ul {
     line-height: 1.2;
     color: var(--logo-black-color);
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 
 .logo>span:first-child {
@@ -115,7 +155,12 @@ ul {
 
 .hero{
     background-color:var(--main-section);
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+    padding-right: 452px;  
 }
+
 .hero-title{
     color:var(--main-white);
     font-weight: 900;
@@ -124,9 +169,10 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-bottom: 280px;
-    padding-top: 200px;
+    margin-left: auto;
+    margin-bottom: 30px;
 }
+
 .button{
     color: var(--main-white);
     background-color:var(--accent-color);
@@ -336,10 +382,10 @@ ul {
     padding-bottom: 94px;
  }
 
- .list{
+ /* .list{
     padding-top:94px ;
     padding-bottom: 34px;
- }
+ } */
 
  .list-pictures{
     padding-top: 88px;
@@ -365,6 +411,3 @@ ul {
     letter-spacing: 0.03em;
  }
 
-.adress{
-    font-style: normal;
-}
