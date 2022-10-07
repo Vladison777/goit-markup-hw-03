@@ -152,13 +152,17 @@ img {
 }
 
 /* -------------Main------------ */
+.hero .container{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+}
 
 .hero{
     background-color:var(--main-section);
-    padding-top: 200px;
-    padding-bottom: 280px;
-    padding-left: 452px;
-    padding-right: 452px;  
 }
 
 .hero-title{
@@ -169,8 +173,7 @@ img {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-left: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .button{
@@ -190,6 +193,10 @@ img {
     display: inline-block;
     min-width: 216;
     border: 1px solid transparent;
+    display: flex;
+    margin: auto;
+    gap: 50px;
+
 }
 
 
