@@ -152,28 +152,23 @@ img {
 }
 
 /* -------------Main------------ */
-.hero .container{
-    display: flex;
-    align-items: center;
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-bottom: 280px;
-    padding-left: 452px;
-}
-
 .hero{
     background-color:var(--main-section);
+    padding: 200px 0px;
 }
 
 .hero-title{
     color:var(--main-white);
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button{
@@ -195,8 +190,7 @@ img {
     border: 1px solid transparent;
     display: flex;
     margin: auto;
-    gap: 50px;
-
+    /* gap: 50px; */
 }
 
 
@@ -224,8 +218,6 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-bottom: 94px;
-    padding-top: 94px;
 }
 
 .about-description{
@@ -234,7 +226,7 @@ img {
 }
 
 .section-about{
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .section-title{
@@ -243,17 +235,21 @@ img {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
-    padding-top: 94px;
+    margin-bottom: 50px;
 }
 
-.team{
+.pictures-work{
+    display: flex;
+    gap: 30px;
+}
+
+.section-team{
     background-color: var(--section-team);
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.subtitle{
-    padding-top: 94px;
+.section-title{
     padding-bottom: 50px;
 }
 
@@ -262,7 +258,7 @@ img {
   
 
 .user{
-    padding-bottom: 30px;
+    padding-bottom: 30px 22px;
 }
 
 .team-name{
@@ -272,7 +268,7 @@ img {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .team-profession{
@@ -363,6 +359,7 @@ img {
     letter-spacing: 0.03em;
     cursor: pointer;
     Border: none;
+    padding: 6px 22px;
  }
 
  .button-portfolio{
@@ -373,6 +370,7 @@ img {
  .button-portfolio.desk{
     background-color: var(--accent-color);
     color: var(--main-white);
+    padding: 6px 25px;
  }
 
  .button-portfolio.desk:hover{
@@ -385,22 +383,25 @@ img {
  }
 
  .projects{
-    padding-top:174px ;
+    padding-top: 94px;
     padding-bottom: 94px;
  }
 
- /* .list{
-    padding-top:94px ;
-    padding-bottom: 34px;
- } */
+ .list{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+ }
 
  .list-pictures{
-    padding-top: 88px;
-    padding-bottom: 94px;
+    display: flex;
+    gap: 22px;
+    padding-top: 34px;
+    flex-wrap:wrap;
  }
 
  .imegin{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
  }
 
  .project-name{
@@ -408,7 +409,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
  }
 
  .project-text{
