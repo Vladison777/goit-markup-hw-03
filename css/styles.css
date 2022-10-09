@@ -195,8 +195,9 @@ img {
 
 
 .about{
-    background-color:var(--main-white);
+    padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 
 .visually-hidden{
@@ -212,12 +213,18 @@ img {
     margin: -1px;
 }
 
+.description{
+    display: flex;
+}
+
 .about-title{
     color: var(--secondary-text);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 10px;
+    gap: 30px;
 }
 
 .about-description{
@@ -226,6 +233,7 @@ img {
 }
 
 .section-about{
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -235,7 +243,6 @@ img {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
 }
 
 .pictures-work{
@@ -250,15 +257,18 @@ img {
 }
 
 .section-title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-/* .item{ 
-} */
+.item{ 
+    background-color: var(--main-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
   
-
 .user{
-    padding-bottom: 30px 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name{
@@ -279,8 +289,10 @@ img {
 }
 
 /* --------Footer---------- */
-.the-end{
+.footer{
     background-color:var(--main-section);
+    padding-top:60px; ;
+    padding-bottom: 60px;
 }
 
 .logo-footer>span:first-child {
@@ -303,13 +315,7 @@ img {
 
 .logo-footer {
     text-decoration: none;
-    padding-top: 60px;
-    padding-bottom: 161x;
-}
-
-.adress{
-    padding-top:111px ;
-    padding-bottom:60px ;
+    margin-bottom: 20px;
 }
 
 .link-footer{
@@ -320,9 +326,11 @@ img {
     color:var(--main-white);
     text-decoration: none;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    padding-bottom: 9px;
-    
+    letter-spacing: 0.03em;  
+}
+
+.contact{
+    margin-bottom: 9px;
 }
 
 /* .footer-contact .google {
@@ -360,6 +368,7 @@ img {
     cursor: pointer;
     Border: none;
     padding: 6px 22px;
+    border-radius: 4px;
  }
 
  .button-portfolio{
@@ -395,14 +404,23 @@ img {
 
  .list-pictures{
     display: flex;
-    gap: 22px;
-    padding-top: 34px;
+    gap: 30px;
+    margin-top: 50px;
     flex-wrap:wrap;
  }
 
- .imegin{
-    margin-bottom: 20px;
+ .group{
+    background-color: var(--main-white);
+    border: 1px solid #EEEEEE;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left: 24px;
+    padding-right: 24px;
  }
+
+.logo-footer{
+    margin-bottom: 20px;
+}
 
  .project-name{
     color: var(--secondary-text);
@@ -417,5 +435,9 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+ }
+
+ .information{
+    margin-bottom: 9px;
  }
 
