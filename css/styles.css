@@ -15,15 +15,15 @@
 /* акцент #2196F3 (лого + кнопки) */
 /* вторинний колір фона #F5F4FA (секція "Наша команда) */
  
-html{
+/* html{
     box-sizing: border-box;
-}
+} */
 
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
+} */
 
 body {
     background-color:var(--main-white);
@@ -91,7 +91,6 @@ img {
     display: flex;
     align-items: center;
     padding: 0%;
-    gap: 50px;
 }
 
 .contact-list {
@@ -398,7 +397,7 @@ img {
 
  .list{
     display: flex;
-    gap: 8px;
+    gap: 50px;
     justify-content: center;
  }
 
@@ -419,6 +418,7 @@ img {
  }
 
 .logo-footer{
+    display: block;
     margin-bottom: 20px;
 }
 
