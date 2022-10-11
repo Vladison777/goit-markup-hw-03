@@ -153,7 +153,7 @@ img {
 }
 
 /* -------------Main------------ */
-.hero{
+.section-hero{
     background-color:var(--main-section);
     padding: 200px 0px;
 }
@@ -195,7 +195,7 @@ img {
 }
 
 
-.about{
+.section-about{
     padding-top: 94px;
     padding-bottom: 0;
     
@@ -408,6 +408,11 @@ img {
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
+ }
+
+ .pictures {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #EEEEEE;
  }
 
  .list-pictures{
