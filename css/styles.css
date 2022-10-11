@@ -6,6 +6,7 @@
     --main-section:#2F303A;
     --main-white:#FFFFFF;
     --section-team:#F5F4FA;
+    --portfolio-header:#ECECEC;
 }
 
 
@@ -15,21 +16,21 @@
 /* акцент #2196F3 (лого + кнопки) */
 /* вторинний колір фона #F5F4FA (секція "Наша команда) */
  
-/* html{
-    box-sizing: border-box;
-} */
-
-/* *,
-*::before,
-*::after {
-    box-sizing: border-box;
-} */
-
 body {
     background-color:var(--main-white);
     color: var(--main-text);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
 }
 
 ul {
@@ -102,6 +103,7 @@ img {
 
 .page-header{
     padding: 25px 0px;
+    border-bottom: 1px solid var(--portfolio-header);
 }
 
 .logo{
@@ -195,7 +197,7 @@ img {
 
 .about{
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 0;
     
 }
 
@@ -399,6 +401,13 @@ img {
     display: flex;
     gap: 50px;
     justify-content: center;
+ }
+
+ .filter{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
  }
 
  .list-pictures{
